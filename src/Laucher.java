@@ -1,4 +1,4 @@
-package Codes;
+package src;
 import javax.swing.*;
 
 public class Laucher
@@ -7,9 +7,11 @@ public class Laucher
     {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
-            public void run(){
-                MainWindow main = new MainWindow();
-                main.show();
+            public void run()
+            {
+            	MainWindow loginWindow = new MainWindow();
+            	
+            	
             }
         });
 
